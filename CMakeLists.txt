@@ -8,5 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 project(parallel_algorithms CXX)
 
 include_directories(/opt/homebrew/include)
-add_executable(paralg
-        sem-1/main.cpp)
+
+# 1
+add_subdirectory(sem-1)
+add_subdirectory(hw-1)
