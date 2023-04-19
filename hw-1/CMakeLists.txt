@@ -1,1 +1,1 @@
-add_executable(hw-1 hw1.cpp)
+add_executable(hw-1 hw-1.cpp)

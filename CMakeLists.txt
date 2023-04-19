@@ -7,6 +7,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 project(parallel_algorithms CXX)
 
+set(CMAKE_CXX_FLAGS "-DNUMBER=1e8 -DPRECISION=6")
+
 include_directories(/opt/homebrew/include)
 
 # 1
