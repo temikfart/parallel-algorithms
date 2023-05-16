@@ -7,13 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 project(parallel_algorithms CXX)
 
-#set(CMAKE_CXX_FLAGS "-DNUMBER=1e8 -DPRECISION=6")
+set(CMAKE_CXX_FLAGS "-DNUMBER=2000 -DPRECISION=6 -DMODE=1 -DMAX_TEMP=1e-1")
 
 include_directories(/opt/homebrew/include)
-
-# 1
-add_subdirectory(sem-1)
-add_subdirectory(hw-1)
-
-# 2
-add_subdirectory(hw-2)
+add_executable(hw-2 hw-2.cpp)
